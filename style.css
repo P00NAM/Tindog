@@ -1,0 +1,150 @@
+#title {
+    background-color: #ff4c68;
+  /*  font-family: 'Gentium Book Plus', serif;*/
+    padding: 2rem;
+      color: white;
+  }
+  .container-fluid{
+  /*  background-color: pink;*/
+    padding: 0 15% ;
+  }
+  
+  .Download-button{
+    margin: 5% 2% 5% 1%;
+  }
+  /*h1{
+    font-family: 'Lobster', cursive;
+    font-weight: bold;
+    font-size: 4rem;
+    line-height: 2;
+  }*/
+  .image{
+    width: 20%;
+    transform:rotate(25deg);
+  
+    position:absolute;
+  }
+  .meet-row{
+    padding: 5rem 5rem 12rem 12rem;
+  }
+  @media(max-width:1028px){
+    .image{
+      width: 50%;
+      position: static;
+      transform: rotate(0);
+    }
+    #title{
+      text-align:center;
+      width: 50%;
+  
+    }
+  }
+  /*------------- navbar ----------*/
+  
+   .navbar{
+    /* background-color: blue;*/
+    padding: 0 12rem 10rem ;
+  }
+  .tin{
+      font-size: 2.5rem;
+    font-family: "Ubuntu" ;
+    font-weight: bold;
+  /*  padding: 0 2rem 2rem 0;
+   background-color: #000;*/
+  }
+  .nav-item{
+    padding: 0 18px;
+  
+  }
+  .nav-link{
+    font-size: 1.2rem;
+    font-family: "Montserrat-light" ;
+  }
+  
+  /*//--------------features-----------//*/
+  h3{
+    font-weight: bold;
+    font-family: "Montserrat";
+    font-size: 1.5rem;
+  }
+  p{
+    color: grey;
+  }
+  #features{
+    background-color: white;
+    padding: 7% 18%;
+    position: relative;
+  
+  }
+  .features-row{
+    /*background-color: green;*/
+    padding: 0 3rem ;
+  
+    z-index: 1;
+  }
+  .feature-box{
+    padding: 10rem;
+    text-align: center;
+  }
+  .icon{
+    color: #ef8172;
+    margin-bottom: 1rem;
+  }
+  .icon:hover {
+    color: #ff4c68 ;
+  }
+  
+  /*-----------testimonials------------*/
+  
+  #testimonials{
+    background-color: #ef8172;
+  
+    text-align: center;
+    color: #fff;
+  font-family: "Montserrat", sans-serif;
+  }
+  .testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 2%;
+  }
+  .carousel-item{
+      padding: 7% 20%;
+  }
+  #press{
+    background-color: #ef8172;
+    padding: 4% 2% 4% 4%  ;
+  }
+  .img-logo{
+    width: 15%;
+    margin: 0 4% ;
+  }
+  /*-----------pricing--------*/
+  h2{
+  
+    font-family: "Montserrat";
+  }
+  #pricing{
+    text-align: center;
+    padding: 100px;
+  }
+  .pricing-row{
+    padding: 3% 2%;
+  }
+  
+    /*-- Call to Action --*/
+  
+    #cta{
+      background-color: #ff4c68;
+      padding: 5rem 20rem;
+        color: white;
+        text-align: center;
+    }
+   #footer{
+     text-align: center;
+     padding: 4%;
+   }
+  .foot-icon{
+    padding: 5px;;
+  }
+  

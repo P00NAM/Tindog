@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <title>register</title>
+</head>
+<body>
+    {{>navbar}}
+
+ {{!--contact start--}}   
+ <div class="container-fluid mt-5">
+    <div class="row">
+        <div class="col-md-10 col-12 mx-auto ">
+          <h1>Our Contact</h1>
+          <p>Let's connect with us</p>
+
+
+<form action="/register" method="post">
+  <div class="mb-3 ">
+    <label  class="form-label">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" name="email">
+    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+  </div>
+  <div class="mb-3 ">
+    <label  class="form-label">User Name</label>
+    <input type="name" class="form-control" id="exampleInputName" name="name">
+ 
+  </div>
+  <div class="mb-3">
+    <label class="form-label">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1" name="password">
+  </div>
+  <div class="mb-3">
+    <label class="form-label">Confirm Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1" name="confirmpassword">
+  </div>
+
+  <div class="mb-3 ">
+      <div class="mb-3 ">
+    <label  class="form-label">Breed </label>
+    <input type="name" class="form-control" id="exampleInputName" name="Dog's name">
+ 
+  </div>
+    <label  class="form-label">Address</label>
+    <input type="address" class="form-control" id="exampleInputAddress" name="address" >
+  </div>
+  <div class="mb-3 ">
+    <label  class="form-label">Ph no.</label>
+    <input type="phone" class="form-control" id="exampleInputPhone" name="phone" >
+  </div>
+ {{!-- <div class="mb-3 form-check">
+    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+  </div> --}}
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+      </div>
+    </div>
+</div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
+
